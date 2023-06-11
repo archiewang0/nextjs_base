@@ -6,12 +6,13 @@
 import Test from "../components/layout/index";
 
 function HomePage(props) {
+  console.log("xxxxxxxxx!!!!!jlkjkljkl!");
   const { products } = props;
   // if (!products) return <div>Ladding...</div>;
   return (
     <ul>
       {products.map((i) => (
-        <li key={Math.random()}>{i.title}</li>
+        <li key={Math.random()}>測試!!!!!!!{i.title}</li>
       ))}
       {/* <li>Product 1</li>
       <li>Product 2</li>
